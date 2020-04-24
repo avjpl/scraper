@@ -1,0 +1,14 @@
+{
+  "name": "cousre_videos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "async-get-file": "^1.0.3",
+    "nodemon": "^2.0.3",
+    "puppeteer": "^3.0.1"
+  }
+}
