@@ -2,15 +2,15 @@ const puppeteer = require('puppeteer');
 const get = require('async-get-file');
 
 const url = '';
+const downloadFolder = '';
 
 const options = {
-  directory: './downloads/',
+  directory: `./downloads/${downloadFolder.trim()}`,
 };
 
 const self = {
   browser: null,
   page: null,
-  idx: 1,
 
   init: async () => {
     self.browser = await puppeteer.launch({ headless: true });
@@ -36,10 +36,8 @@ const self = {
 
       await get(videoSrc, {
         ...options,
-        filename: `${title.replace(/[#-]/g, ' - ')}.mp4`,
+        filename: `${title.replace('#', ' - ')}.mp4`,
       });
-
-      self.idx++;
     }
 
     await self.browser.close();
