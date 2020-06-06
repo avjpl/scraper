@@ -84,10 +84,10 @@ asap@~2.0.6:
   resolved "https://registry.yarnpkg.com/asap/-/asap-2.0.6.tgz#e50347611d7e690943208bbdafebcbc2fb866d46"
   integrity sha1-5QNHYR1+aQlDIIu9r+vLwvuGbUY=
 
-async-get-file@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/async-get-file/-/async-get-file-1.0.3.tgz#244ee0953a1c1126a6e8aa9cce6bcd764ea8ff2f"
-  integrity sha512-o9wW939vY3cOtDWGMJfJOQ8/LkWclqUs89sOXN5YEzyfPa6uPan4ZTVIn9rUzFZhVJzC6ZIP0VWJi3HRFm/5eQ==
+async-get-file@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/async-get-file/-/async-get-file-1.0.4.tgz#c58bdf3d5bd3d6f306410ca929ebce60670b2fd4"
+  integrity sha512-/9Wp/DwPZpI1E2VqsBeSU2LvIJIoEftHz2nEtIj6JqBglzNR/T4i6jaSlkCrZW7E/liaqIyb0VPoUUVb/aTlbQ==
   dependencies:
     download-file "^0.1.5"
     promise "^8.0.3"
